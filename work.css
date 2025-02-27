@@ -132,7 +132,7 @@ body {
   
   .right {
     width: 50%;
-    background: url('/images/Accenture.jpg') no-repeat center center/cover;
+    background: url('Accenture.jpg') no-repeat center center/cover;
   }
   
   .text {
@@ -147,7 +147,7 @@ body {
   
   /* Social Media Section */
   .social-links {
-    background: url('/images/socialbackground.jpg') center/cover;
+    background: url("socialbackground.jpg") center/cover;
     text-align: center;
     padding: .5rem 0;
     font-size: 15px;
