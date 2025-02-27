@@ -5,16 +5,22 @@ body {
     background: #1f1f1f;
     color: #343a40;
   }
-  @keyframes flip {
-      from { transform: rotateX(90deg); opacity: 0; }
-      to { transform: rotateX(0deg); opacity: 3; }
-  }
+  @keyframes fadeIn {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
+}
+
 
   h1 {
+    
       font-size: 3rem;
       display: inline-block;
       transform-origin: bottom;
-      animation: flip 1s ease-out;
+      animation: fadeIn 1.8s ease-in-out forwards;
   }
   header {
     background: #1f1f1f;
@@ -24,7 +30,8 @@ body {
   }
   header h1 {
     margin: 0;
-    font-size: 3.5rem;
+    font-family:"Fira Code", "Source Code Pro", "Consolas", "Courier New", monospace;
+    font-size: 4rem;
     font-weight: 700;
     color: #ffffff;
   }
