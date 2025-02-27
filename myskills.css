@@ -11,7 +11,7 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 4rem 0;
-    background: url('/images/wallpaperh.jpg') center/cover;
+    background: url('wallpaperh.jpg') center/cover;
     color: white;
 }
 header h1 {
@@ -112,7 +112,7 @@ background: url('/images/skillswallpaper.jpg') center/cover;
 text-align: center;
 }
 .social-links {
-background: url('/images/socialbackground.jpg') center/cover;
+background: url("socialbackground.jpg") center/cover;
 text-align: center;
 padding: .5rem 0;
 font-size: 15px;
