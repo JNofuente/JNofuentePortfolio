@@ -129,7 +129,7 @@ img {
 
 /* Social Media Section */
 .social-links {
-  background: url('/images/socialbackground.jpg') center/cover;
+  background-image: url("socialbackground.jpg") center/cover;
   text-align: center;
   padding: .5rem 0;
   font-size: 15px;
