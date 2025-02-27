@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerome Nofuente - Portfolio</title>
+    <link rel="stylesheet" href=" ./about.css" >
+    
+</head>
+<body>
+
+
+    
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><b>About</b></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="Work.Html"> Work Experience</a></li>
+            <li><a href="Education.html">Educations</a></li>
+        </ul>
+    </nav>
+    
+    
+    <div class="about-container">
+        <div class="left">
+            <div class="text">
+                <h2>About Me</h2>
+                <p>I am a motivated and results-driven individual with a strong commitment to delivering exceptional outcomes in every endeavor.</p>
+                <p>With proven expertise in basic IT knowledge, problem-solving, communication, or video/photo editing, I thrive in dynamic environments where I can contribute to organizational success and personal growth.</p>
+                <p>My ability to adapt quickly, collaborate effectively, and maintain a solution-oriented mindset makes me a valuable asset to any team.</p>
+                <p>I am eager to bring my dedication and creativity to working toward achieving impactful results and building a lasting positive influence.</p>
+                <img id="play-pause-btn" src="/images/playicon.png" alt="Play" onclick="toggleAudio()">
+                <audio id="audio" src="/audio/aboutmeaudio.mp3" ontimeupdate="updateProgressBar()" onended="resetAudioControls()"></audio>
+                <input type="range" id="progress-bar" value="0" max="100" step="0.1" onchange="seekAudio()">
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+
+    <section class="social-links"> 
+        <p><b>Connect with me on my social media networks</b></p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/Jeromeqwe" target="_blank">
+                <img src="/images/fbicon.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/jnofuente/" target="_blank">
+                <img src="/images/linkedinicon.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/jerome.hehe/" target="_blank">
+                <img src="/images/instaicon.png" alt="Instagram">
+            </a>
+            <a href="https://x.com/JPNofuente" target="_blank">
+                <img src="/images/xicon.png" alt="Twitter">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jerome Nofuente. All rights reserved.</p>
+    </footer>
+    
+    <script src="about.js"></script>
+</body>
+</html>
