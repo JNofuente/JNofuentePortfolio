@@ -10,7 +10,7 @@ body {
       header {
     text-align: center;
     padding: 1rem 0;
-    background: url('/images/wallpaper.jpg') center/cover;
+    background: url("wallpaper.jpg") center/cover;
     color: white;
 }
 .background h1 {
@@ -93,7 +93,7 @@ border-radius: 5px;
 
 
 .background {
-background: url('/images/skillswallpaper3.jpg') center/cover;
+background: url("skillswallpaper3.jpg") center/cover;
 }
 
 .container-wrapper {
@@ -197,7 +197,7 @@ margin-top: 10px;
 text-align: center;
 }
 .social-links {
-background: url('/images/socialbackground.jpg') center/cover;
+background: url("socialbackground.jpg") center/cover;
 text-align: center;
 padding: .5rem 0;
 font-size: 15px;
