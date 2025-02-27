@@ -1,12 +1,12 @@
 function containerClicked(containerNumber) {
     const links = {
-        1: '/.vscode/Skills/Compskill.html',
-        2: '/.vscode/Skills/Editing.html',
-        3: '/.vscode/Skills/Time.html',
-        4: '/.vscode/Skills/ITknowledge.html',
-        5: '/.vscode/Skills/Solving.html',
-        6: '/.vscode/Skills/Communication.html',
-        7: '/.vscode/Skills/Thinking.html'
+        1: 'Compskill.html',
+        2: '/Editing.html',
+        3: "Time.html",
+        4: "/ITknowledge.html",
+        5: '.Solving.html',
+        6: ".Communication.html",
+        7: "/.Thinking.html"
     };
     window.location.href = links[containerNumber];
 }
